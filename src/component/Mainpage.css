@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: rgb(255, 255, 255); */
+  background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+  background-image: linear-gradient(
+    to right,
+    #e4afcb 0%,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #e2c58b 30%,
+    #c2ce9c 64%,
+    #7edbdc 100%
+  );
+}
+
+.card {
+  height: 220px;
+  min-width: 268px;
+  flex-shrink: 0;
+  background-color: rgba(0, 30, 255, 0.581);
+  background: linear-gradient(to right, #5f2c82, #49a09d);
+  background-image: linear-gradient(135deg, #92ffc0 10%, #002661 100%);
+  background-image: linear-gradient(to top, #330867 20%, #30cfd0 100%);
+  color: aliceblue;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 5px 10px;
+  border-top: 3px solid #000;
+  border-left: 3px solid red;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid green;
+}
+
+.card p b{
+  float: left;
+}
+
+.card .details{
+  text-align: justify;
+}
+
+.card .name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card .email {
+  font-style: italic;
+  cursor: pointer;
+  text-transform: lowercase;
+  font-size: 14px;
+}
+
+.card .bal {
+  color: greenyellow;
+}
+
+.card h2,
+h3,
+p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p {
+  margin: 5px;
+}
